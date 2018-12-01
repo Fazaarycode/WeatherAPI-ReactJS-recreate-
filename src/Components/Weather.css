@@ -1,0 +1,26 @@
+.check{
+	list-style-type: none;
+	font-size: 1.3rem;
+	letter-spacing: .5px;
+	font-family: "Roboto","Sans-serif"
+
+}
+
+.city{
+	text-decoration:underline;
+	margin-bottom: 20px;
+}
+
+.blue{
+	color:blue;
+	font-size: 25px;
+}
+
+.red{
+	color:red;
+	font-size: 25px;
+}
+
+.thunder{
+   font-size:30px;
+}
