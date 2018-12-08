@@ -21,7 +21,7 @@ state ={
 
     e.preventDefault();
     const eventVal = e.target.elements.cityName.value;
-    const API_KEY = "MoXz1fKsvswZ1QAYNGJOCx1wAouOgZgN";
+    const API_KEY = "YOUR API KEY GOES HERE, Secure your APIKEY from accuweather.com";
     const api_call_locKey = await fetch(`http://dataservice.accuweather.com/locations/v1/cities/search?apikey=${API_KEY}&q=${eventVal}&_=1542476520322`)
     const result = await api_call_locKey.json();
     //console.log(result);
